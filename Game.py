@@ -1,11 +1,5 @@
-introString=input('Enter The No:')
-charecterCount=0
-wordCount=1
+import random
 
-for i in introString:
-    charecterCount=charecterCount+1
-    if(i==' '):
-        noCount=noCount+1
+randomNo=int(input('Enter The no you are guessing'))
 
-print(charecterCount)
-print(noCount)
+if randomNo>9
